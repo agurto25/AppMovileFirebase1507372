@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    android:orientation="vertical"
+    android:background="@drawable/iniciooo">
+
+    <Button
+        android:id="@+id/btningresarInicio"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Ingresar"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#2B2D30"
+        android:layout_gravity="end"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        />
+</LinearLayout>

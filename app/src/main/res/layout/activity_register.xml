@@ -37,6 +37,7 @@
         android:textColor="#406DE1"
         />
     <EditText
+        android:id="@+id/txtApellidoNombreRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -54,6 +55,7 @@
         android:textColor="#406DE1"
         />
     <EditText
+        android:id="@+id/txtCorreoRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -71,6 +73,7 @@
         android:textColor="#406DE1"
         />
     <EditText
+        android:id="@+id/txtTelefonoRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -89,6 +92,7 @@
         android:textColor="#406DE1"
         />
     <EditText
+       android:id="@+id/txtPassRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -105,6 +109,7 @@
         android:layout_margin="40dp">
 
         <Button
+            android:id="@+id/btnRegistrarRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrar"
@@ -115,6 +120,7 @@
 
             />
         <Button
+            android:id="@+id/btnCancelarRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cancelar"
@@ -124,6 +130,7 @@
             android:backgroundTint="#F1C40F"
             />
         <Button
+            android:id="@+id/btnLimpiarRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Limpiar"
