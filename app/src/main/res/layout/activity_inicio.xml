@@ -7,7 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".Inicio"
     android:orientation="vertical"
-    android:background="@drawable/iniciooo">
+    android:background="@drawable/fondoini">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="420dp"
+        android:src="@drawable/iconoinii"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        />
 
     <Button
         android:id="@+id/btningresarInicio"
@@ -16,10 +24,10 @@
         android:text="Ingresar"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:backgroundTint="#2B2D30"
+        android:backgroundTint="#809CA7"
         android:layout_gravity="end"
-        android:layout_marginEnd="120dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginTop="30dp"
         android:textColor="@color/white"
         android:fontFamily="monospace"
         />

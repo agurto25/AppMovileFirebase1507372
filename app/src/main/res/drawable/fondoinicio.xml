@@ -2,9 +2,9 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <bitmap
-            android:src="@drawable/iniciooo"
+            android:src="@drawable/fondoini"
             android:gravity="fill"
-            android:alpha="0.7"
+            android:alpha="0.8"
             />
     </item>
 </layer-list>
